@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+      .nav-item{
+          margin: 0px;
+      }
+      .btn{
+          margin: 5px;
+          border-radius: 10px 5px;
+      }
+      .btn:hover{
+          color: rgba(55, 220, 176, 0.579);
+          background-color: rgb(153, 169, 172);
+      }
+      .user{
+          background-color: aquamarine;
+          padding: 20px;
+      
+      }
+      .user1{
+          display: flex end;
+          justify-content: flex-end;
+          background-color: rgba(0, 0, 255, 0.308);
+          padding: 30px;
+      }
+      .dropdown-menu{
+      background-color: rgba(0, 0, 0, 0.012);
+     }
+
+      button{
+          float: right;
+          background: orange;
+          color: white;
+          border-radius: 0 5px 5px 0;
+          cursor: pointer;
+          position: relative;
+          padding: 7px;
+          font-family: sans-serif;
+          border: none;
+          font-size: 16px;
+      }
+      .logo {
+          color: rgb(23, 176, 23);
+          font-size: 30px;
+      }
+      .logo span{
+          color: rgb(158, 120, 214);
+      }
+      .carousel-caption{
+        bottom: 220px;
+      }
+      .carousel-caption h2{
+        font-size: 60px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        margin-top: 25px;
+      }
+      .carousel-caption p{
+        width: 60%;
+        margin: auto;
+        font-size: 18px;
+        line-height: 1.9;
+      }
+      .carousel-caption a{
+        text-transform: uppercase;
+        text-decoration: none;
+        background:darkorange;
+        padding: 10px; 30px;
+        display: inline-block;
+        color: #000;
+        margin-top:15px
+      }
+     
+  </style>  
+     
+
+</head>
+<body>
+    <h1 class="logo">cakes<span>cafe.com</span></h1>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark " id="navbar">
+      <!-- Brand -->
+      <a class="navbar-brand" href="#" id="logo"><img src="https://as2.ftcdn.net/v2/jpg/02/90/05/01/1000_F_290050109_OSesgAR5355skVhUsHaHP0qrHvmNt5c7.jpg"alt=""width="50px">Cake Bakery</a>
+    
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"> </button>
+
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+   <ul class="navbar-nav ml-auto text-center">
+          <li class="nav-item"><a class="btn btn-light"href="home.html">HOME</a></li>
+          <li class="nav-item"><a class="btn btn-light"href="cakeitems.html">PRODUCTS</a></li>
+          <li class="nav-item"><a href="#modalaa" class="btn btn-light"data-bs-target="#modalaa">CONTACTUS</a></li>
+          <li class="nav-item"><a class="btn btn-light"href="aboutus.html">ABOUTUS</a></li>
+          <li class="nav-item"><a class="btn btn-light"href="services.html">SERVICES</a></li>
+   <!---dropdown-->
+   <div class="dropdown">
+    <button class="btn btn-dark dropdown-toggle" data-bs-target="#ddd" data-bs-toggle="dropdown">CAKES</button>
+<ul class="dropdown-menu">
+    <li class="dropdown-item"><a href="https://www.google.com/search?rlz=1C1CHBD_enIN1037IN1037&sxsrf=AJOqlzUDVRyTjxDaxoaV3dLuyvb9VDAasQ:1674719513544&q=chocolate+cake+images&tbm=isch&source=univ&fir=jmq3cQI7alVQdM%252Cy_zdVNFd2jYcwM%252C_%253BE50w53LUhFLU_M%252Ck29TC8WFpoqiaM%252C_%253B1hWO78SPXz3CSM%252CPSSJ3zNo7tNoQM%252C_%253BjFyS5aG7yfN38M%252C1Znnq9DO39E8LM%252C_%253BoMqEsfG3tZVhWM%252CWf-6QZu7qUzQSM%252C_%253Bt5-KOSMng9mcWM%252CthFB4ftgHqcTNM%252C_%253Bip2UjPFsRpyo4M%252CoRm9Lt7PPeP-GM%252C_%253BUT8l3g-1hwP9VM%252CE-LlCCuFW4OH7M%252C_%253BdPRexb0EhHISRM%252C0M8YfPQpDoozEM%252C_%253B6X5K_tfcqfjcpM%252CDIm1R3y6qDlsTM%252C_%253Bf-wXFvzRQVLUeM%252Ck29TC8WFpoqiaM%252C_%253BqyY95wx9s6YoGM%252CthFB4ftgHqcTNM%252C_%253B_vfzyC7CImUAmM%252C11JX5SMuIoSAHM%252C_%253BTuLzkiR-XNzE0M%252CPSSJ3zNo7tNoQM%252C_&usg=AI4_-kQHU-Oc4U7tbjLAnU7b_HnIw06mVw&sa=X&ved=2ahUKEwi758-t4OT8AhUK4DgGHRokBUcQ7Al6BAgIEGY&biw=1536&bih=746&dpr=1.25" class="btn ">CHOCLATE</a></li>
+    <li class="dropdown-item"><a href="https://www.google.com/search?q=BUTTERSCHOCH+cake+images+pixabay&sa=X&rlz=1C1CHBD_enIN1037IN1037&biw=1536&bih=746&tbm=shop&sxsrf=AJOqlzXgMqM99NTZ0IYnHkmvCwx4vuwG7w%3A1674719625292&ei=iTHSY_SkEdrxjuMPxvGVyAE&ved=0ahUKEwi0jfTi4OT8AhXauGMGHcZ4BRkQ4dUDCAg&uact=5&oq=BUTTERSCHOCH+cake+images+"class="btn ">BUTTERSCOTCH</a></li>
+    <li class="dropdown-item"><a href="https://www.google.com/search?q=redvelvet+cake+images+pixabay&sa=X&rlz=1C1CHBD_enIN1037IN1037&biw=1536&bih=746&tbm=shop&sxsrf=AJOqlzUU6a_VxxMdX3QJx4viHpQndlqjeg%3A1674719823707&ei=TzLSY_-rKrr84-EPpvexmAo&ved=0ahUKEwi_j8LB4eT8AhU6_jgGHaZ7DKMQ4dUDCAg&uact=5&oq=redvelvet+cake+"class="btn ">REDVELVET</a></li>
+    <li class="dropdown-item"><a href="https://www.google.com/search?q=vanilla+cake+images+pixabay&sa=X&rlz=1C1CHBD_enIN1037IN1037&biw=1536&bih=746&tbm=shop&sxsrf=AJOqlzVxB3OYwwVow3AKddaMu-TsKpEzwg%3A1674719616128&ei=gDHSY8WWB5vh4-EPx8e9gAg&ved=0ahUKEwjF1sTe4OT8AhWb8DgGHcdjD4AQ4dUDCAg&uact=5&oq=vanilla+cake+images+pixabay&gs_lcp=Cgtwcm9kdWN0cy1jYxADMgUIABCiBDIFCAAQogQ6CAgAEIAEELADOgkIABAIEB4QsAM6CwgAEAUQHhCwAxAYOgsIABAIEB4QsAMQGDoGCAAQFhAeOggIABAWEB4QGDoFCCEQoAE6CAghEBYQHhAdOgoIIRAWEB4QHRAYOgcIIRCgARAKSgQIQRgBUO8RWLkmYNIuaAFwAHgAgAGWAogBuQySAQUwLjYuMpgBAKABAcgBBcABAQ&sclient=products-cc"class="btn">VANILLA</a></li>
+    <li class="dropdown-item"><a href="https://www.google.com/search?q=blackforest+cake+images+pixabay&sa=X&rlz=1C1CHBD_enIN1037IN1037&biw=1536&bih=746&tbm=shop&sxsrf=AJOqlzVOMzH5moDl3MyMxN9Qx1sc7mNqMw%3A1674719901570&ei=nTLSY5yAIoqP4-EPzpKJ2AM&ved=0ahUKEwjcwtLm4eT8AhWKxzgGHU5JAjsQ4dUDCAg&uact=5&oq=blackforest+cake+images+pixabay&gs_lcp=Cgtwcm9kdWN0cy1jYxADOgUIABCiBEoECEEYAVCbBVi0RWDaSWgCcAB4AIAB9gGIAeMXkgEGMC4xNC4zmAEAoAEBwAEB&sclient=products-cc"class="btn ">BLACKFOREST</a></li>
+</ul>
+  </div>
+    </ul>
+</div>
+   <!---dropdown---->
+</ul>
+</div>
+
+  <form class="d-flex">
+    <input class=" me-2 search" type="search" placeholder="Search for Dishes" aria-label="Search">
+     <button class="btn0" type="submit">Search</button>
+    </form>
+    </nav>
+
+
+
+     <!---navbar end-->
+    
+          <!---homesection-->
+          <div class="carousel slide" data-bs-ride="carousel" id="abc">
+            <ol class="carousel-indicators">
+               <li data-bs-target="#abc" data-bs-slide-to="0" class="active"></li>
+               <li data-bs-target="#abc" data-bs-slide-to="1"></li>
+               <li data-bs-target="#abc" data-bs-slide-to="2"></li>
+               <li data-bs-target="#abc" data-bs-slide-to="3"></li>
+               <li data-bs-target="#abc" data-bs-slide-to="4"></li>
+            </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://t3.ftcdn.net/jpg/03/62/25/52/240_F_362255227_tZXdPBTePhTC6V0xumc67P6JupL6iKDR.jpg"; class="d-block w-100" alt="abc">
+              <div class="carousel-caption >
+                <h2 class="animated bounceInRight" style="animation-delay: 1s;">ARE YOU LOOKING FOR SWEET,STYLISH AND DELICIOUS BIRTHDAY CAKES?</h2>
+                <p class="animated bounceInLeft d-none d-md-block" style="animation-delay: 2s;">DON'T WORRY,WE CAN HELP YOU CHECK OUR BEST CAKE SECTION</p>
+                <P class="animated bounceInRight" style="animation-delay: 3s;"><a href="#">BUYNOW</a></P>
+              </div>
+             </div>
+          <div class="carousel-item">
+            <img src="https://files.thehandbook.com/uploads/2020/07/screen-shot-2020-07-14-at-174210.png" class="d-block w-100" alt="abc">
+              <div class="carousel-caption">
+                <h1>welocme to cakecafe</h1>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://cdn.shopify.com/s/files/1/0551/2695/0025/files/My_project_copy_1_-01_06caab78-6e96-4abc-95b8-76375f5671ba_1445x.jpg?v=1669945782" class="d-block w-100" alt="nature">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.flowerdelivery-reviews.com/wp-content/uploads/2019/02/Capture-51.png" class="d-block w-100" alt="nature">
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.unsplash.com/photo-1615735486329-c61cd40bfcc6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" class="d-block w-100" alt="nature">
+          </div>
+      </div>
+      <a href="#abc" class="carousel-control-prev"><span class="carousel-control-prev-icon" data-bs-target="#abc" data-bs-slide="prev"></span></a>
+      <a href="#abc" class="carousel-control-next"><span class="carousel-control-next-icon" data-bs-target="#abc" data-bs-slide="next"></span></a>
+      </div>
+      
+      <body style="text-align: center;">
+      <div class="container mt-3">
+       <h1 style="color: green;">
+       Sweet Cheeks Cakes
+      </h1>
+      <div class="container mt-3" style="width: 600px;">
+       <div class="card-group">
+       <div class="card" style="width: 200px;">
+       <div class="card-body">
+      <h4 class="card-title">
+      VANILLA
+      </h4>
+      <p class="card-text">
+       Land behold it created good saw after she'd our set
+      </p>
+       
+      <a href="#" class="btn btn-primary">BUY NOW </a>
+      </div>
+      
+    <img class="card-img-bottom" src=
+      "https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80" alt="Card image" style="width: 100%;">
+    </div>
+      <div class="card" style="width: 200px;">
+      <div class="card-body">
+      <h4 class="card-title">
+        BLACKFOREST
+      </h4>
+      <p class="card-text">
+        Land behold it created good saw after she'd our set
+      </p>
+       <a href="#" class="btn btn-primary"> BUY NOW</a>
+        </div>
+       <img class="card-img-bottom" src="https://images.unsplash.com/photo-1559620192-032c4bc4674e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTl8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+       alt="Card image" style="width: 100%;">
+      </div>
+      
+     <div class="card" style="width: 200px;">
+      
+        <div class="card-body">
+      
+             <h4 class="card-title">
+      
+              BUTTERSCOCH
+      
+            </h4>
+      
+             <p class="card-text">
+              Land behold it created good saw after she'd our set </p>
+     <a href="#" class="btn btn-primary">BUY NOW</a>
+      
+     </div>
+      
+    <img class="card-img-bottom" src= "https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=936&q=80"
+     alt="Card image" style="width: 100%;">
+      
+       </div>
+      
+                  </div>
+      
+              </div>
+      
+          </div>
+      
+      </body>
+      
+      </html>
+      
+      <!-- Optional JavaScript; choose one of the two! -->
+      
+      <!-- Option 1: Bootstrap Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      
+      <!-- Option 2: Separate Popper and Bootstrap JS -->
+      <!--
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+      -->
+          <!---homesection end-->
+      
+      
+          </div>
+          
+      </body>
+      </html>
+    
+    
